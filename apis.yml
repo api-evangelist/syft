@@ -1,7 +1,27 @@
 aid: syft
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/syft.png
 name: Syft
-description: 'Syft is a company surfaced as a portfolio company of creandum and added to the API Evangelist
-  network as a stub for enrichment. Sector: other. This profile is a lead awaiting the enrichment pipeline.'
+description: >-
+  Syft (originally Syft Online Ltd, later branded "Syft by Indeed") is a
+  UK-founded flexible-staffing marketplace launched in London in 2015 by Jack
+  Beaman and Novo Abakare. Its platform connects employers across hospitality,
+  retail, industrial, care and facilities-management directly with vetted,
+  rated temporary and part-time workers, removing the traditional recruitment
+  agency and charging a flat fee on top of worker wages. Creandum led Syft's
+  Series A in 2017; the company was acquired by Indeed in 2019 and now operates
+  as part of Indeed Flex. Syft is a consumer/employer staffing marketplace and
+  exposes no public developer API surface.
 url: https://raw.githubusercontent.com/api-evangelist/syft/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,13 +31,31 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Other
+- Staffing
+- Recruitment
+- Hospitality
+- Workforce
+- Marketplace
+- Gig Economy
+common:
+- type: DomainSecurity
+  url: security/syft-domain-security.yml
+- type: Website
+  url: https://syftapp.com
+- type: Company
+  url: https://creandum.com/commitments/syft/
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
