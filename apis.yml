@@ -61,6 +61,11 @@ tags_raw:
 - Marketplace
 - Gig Economy
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/indeed/
+  name: Indeed
+  x-relationship: acquired
+  x-evidence: "Creandum led Syft's Series A in 2017; the company was acquired by Indeed in 2019 and now operates as part of Indeed Flex."
 - type: DomainSecurity
   url: security/syft-domain-security.yml
 - type: Website
